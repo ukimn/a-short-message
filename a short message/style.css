@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::selection{
+    background-color: black;
+    color: yellow;
+}
+
+#words{
+    list-style: none;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.lists{
+    list-style: none;
+    font-size: 20px;
+}
+
+.lsts-items{
+    text-decoration: none;
+    color: rgb(187, 190, 193);
+    transition: all ease 0.7s;
+    -webkit-transition: all ease 0.7s;
+    -moz-transition: all ease 0.7s;
+    -ms-transition: all ease 0.7s;
+    -o-transition: all ease 0.7s;
+}
+
+.lsts-items:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.headers{
+    text-align: center;
+    font-size: 100px;
+}
+
+
+.ps{
+    font-size: 60px;
+    margin: 20px;
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+    transition: all ease 0.7s;
+    -webkit-transition: all ease 0.7s;
+    -moz-transition: all ease 0.7s;
+    -ms-transition: all ease 0.7s;
+    -o-transition: all ease 0.7s;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+
+#section-one{
+    background-color: black;
+    color: pink;
+    padding: 30px;
+}
